@@ -1,4 +1,4 @@
-# meancalculator
+# Mean Calculator
 Calculator app in kotlin
 
 App Store link:
