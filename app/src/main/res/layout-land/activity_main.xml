@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="buddy.biased.thinkingcalculator.MainActivity">
+
+
+    <TextView
+        android:id="@+id/robot_text_view"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:text="Howdy Chief! \n I am ready to use my superb computing power for your trivial calculations"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="0dp"
+
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp"
+        android:background="@drawable/bubble_drawable"
+        app:layout_constraintBottom_toTopOf="@+id/robotright_imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/robotright_imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageView
+        android:id="@+id/robot_imageView"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/robotgreetings"
+        app:layout_constraintTop_toTopOf="@+id/robotright_imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/robotright_imageView"
+
+        />
+
+    <ImageView
+        android:id="@+id/robotright_imageView"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/robotlandright"
+        app:layout_constraintLeft_toRightOf="@+id/robot_imageView"
+        app:layout_constraintRight_toLeftOf="@+id/root_frame_layout"
+        app:layout_constraintTop_toBottomOf="@+id/robot_text_view"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/menu_icon_text_view"
+        android:layout_width="45dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_baseline_description_24px"
+        app:layout_constraintBottom_toBottomOf="@+id/robotright_imageView"
+        app:layout_constraintRight_toRightOf="@+id/robotright_imageView">
+
+    </TextView>
+
+    <FrameLayout
+        android:id="@+id/root_frame_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toRightOf="@+id/robotright_imageView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

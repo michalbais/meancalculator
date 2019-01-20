@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorButtonText">#ffffd9</color>
+    <color name="background_color">#012639</color>
+    <color name="topbuttonbackground_color">#391401</color>
+    <color name="border_color">#fbf9ef</color>
+    <color name="number_background_color">#0b6460</color>
+    <color name="number_border_color">#005b96</color>
+    <color name="pressed_color">#203454</color>
+    <color name="history_color">#d8c766</color>
+    <color name="bubble_color">#FFF</color>
+</resources>
