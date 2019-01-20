@@ -7,5 +7,8 @@
 /build
 /captures
 .externalNativeBuild
-proguard-rules.pro
-app/release
+/app/proguard-rules.pro
+
+release
+/
+libs/
